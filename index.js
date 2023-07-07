@@ -4,7 +4,7 @@ function pedirArrayUsuario(){
     let numeros2=[];
     let num;    
     do{
-        num=prompt("ingrese los numeros que desee o la letra q para salir terminar")
+        num=prompt("ingrese los numeros que desee o la letra q para terminar")
         if (num!=="q"){
             num= parseInt(num);
             numeros2.push(num);
