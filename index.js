@@ -46,10 +46,7 @@ function calcularNumeroMagico(numeros){
             return acumulador;
         },valorInicial);
         return resta;
-    }else{
-        return alert("La cantidad de numeros pares e impares es la misma");
     }
-
 }
 
 
